@@ -2,7 +2,10 @@
 #include <unistd.h>
 #include <string.h>
 #include <stdlib.h>
+#include <sys/types.h>
+#include <sys/wait.h>
 void printHistory();
+void printBackgroundJobs();
 int getcmd(char *prompt, char *args[], int *background)
 {
  	int length, i, j = 0;
@@ -47,20 +50,64 @@ int getcmd(char *prompt, char *args[], int *background)
 	
 int main(void)
 {
+	int bgAssociatedIndexInCommandArray[1000];
+	int numberOfBgProcesses = 0;
+	int backgroundProcesses[1000];
 	int *numberOfArgs = 0;
-	char *commandHistory[10];
-	char *argHistory[10][20];
-	int numberOfArgsAtI[10];
+	char *commandHistory[1000];
+	char *argHistory[1000][20];
+	int numberOfArgsAtI[1000];
 	int i,j, execute = 0;
-	
+	int historyLengthLess10 = 0;
         int historyLength = 0;
-	
+	int found = 0;
 	char *args[20];
  	int bg;
+	char username[50];
+	char *path;
  	while(1) {
 		execute = 1;
  		bg = 0;
+		found = 0;
  		int cnt = getcmd("\n>> ", args, &bg);
+		//Checks for built in "cd" command (and executes)
+		if (!strcmp("cd",args[0])){
+			//Makes sure command wasn't just "cd" without a destination directory
+			if(args[1] != NULL){
+				path = args[1];	
+			}
+			//If the command was just "cd"
+			else {
+				
+				getlogin_r(username,50);
+				strcpy(path,"/home/");
+				strcat(path,username);
+				
+			}
+			chdir(path);
+			execute=0;
+		}
+		//Checks for built in command "pwd"
+		if (!strcmp("pwd",args[0])){
+			char cwd[100];
+			if (args[1] != NULL){
+				printf("\"pwd\" takes no arguments. Current working directory is: \n");
+			}
+			getcwd(cwd,100);
+			printf("%s\n",cwd);
+			execute = 0;
+			
+		}
+		//checks for built in command "exit"
+		if (!strcmp("exit",args[0])){
+			printf("Bye!\n");
+			exit(-1);
+		}
+		//checks for built in command "jobs"
+		if (!strcmp("jobs",args[0])){
+			printBackgroundJobs(backgroundProcesses, numberOfBgProcesses, commandHistory, argHistory, numberOfArgsAtI, bgAssociatedIndexInCommandArray);
+			execute = 0;
+		}
 		//Checks for history commands in format "r\n" or "r x\n"
 		if (!strcmp("r",args[0])){
 			//Searches commandHistory array for most recently added command which starts with the given character (args[1])
@@ -68,12 +115,19 @@ int main(void)
 			if (args[1] != NULL){
 				char commandChar = *args[1];	
 				historyNumber = 1;
-				for (i = historyLength-1;i>=0;i--){
-					if (commandChar == commandHistory[i][0]){
-						printf("Found in i: %d\n", i+1);	
-						historyNumber = i;				
+				historyLengthLess10 = historyLength - 10;
+				if (historyLengthLess10 < 0) historyLengthLess10 = 0;
+				for (i = historyLength-1;i>=historyLengthLess10;i--){
+					if (commandChar == commandHistory[i][0]){	
+						historyNumber = i;
+						found = 1;				
 						break;
 					}
+				}
+				//Error message for invalid commands
+				if (found == 0){
+					printf("Command not found; please enter commands in the form \"r x\", where x is the first letter of one of the last 10 commands entered. These last 10 commands can be viewed with the command \"history\"");
+					execute = 0;
 				}
 			}
 			else {
@@ -83,27 +137,28 @@ int main(void)
 					
 			args[0] = commandHistory[historyNumber];
 			cnt = numberOfArgsAtI[historyNumber] + 1;
-			printf("%s", args[0]);
-			for(j=1;j<cnt;j++){
-				args[j] = argHistory[historyNumber][j-1];
-				printf(" %s", args[j]);
+			if (execute){
+				printf("%s", args[0]);
+				for(j=1;j<cnt;j++){
+					args[j] = argHistory[historyNumber][j-1];
+					printf(" %s", args[j]);
+				}
 			}
 			printf("\n");
 			for (j = cnt;j<20;j++){
 				args[j] = NULL;
 			}	
 		}
+		//Checks for "history" command
 		else if (!strcmp("history", args[0])){
 			execute = 0;
 			printHistory(commandHistory,argHistory,historyLength, numberOfArgsAtI);
 		}
+		//Main command execution
 		if (execute) {
-			numberOfArgsAtI[historyLength] = cnt - 1;
-			//Executes the given command. Wasn't sure if it should be in it's own method, so I left it in Main. 
-			//Stores for the history
-		
+			numberOfArgsAtI[historyLength] = cnt - 1; //count - 1 because it doesn't include the actual command, only arguments
 
-		
+			
 			char *command = args[0];	
 			commandHistory[historyLength] = command;
 		
@@ -119,13 +174,23 @@ int main(void)
 		
 			int childPid = fork();
 			if (!childPid){
-				
+				//prints a new line, so that any bg children that print don't interfere with prompt in shell
+				if (!bg){
+					printf("\n");
+				}
 				execvp(command, args);
+				
 			}
 			else {
 				
 				if (!bg){
-					wait(childPid);
+					int status;
+					waitpid(childPid, &status, 0);
+				}
+				else {
+					bgAssociatedIndexInCommandArray[numberOfBgProcesses] = historyLength-1;
+					backgroundProcesses[numberOfBgProcesses] = childPid;
+					numberOfBgProcesses++;
 				}
 			}
 		}	
@@ -134,9 +199,11 @@ int main(void)
 
 	
 
-void printHistory(char** commands, char *arguments[10][20], int length, int numberOfArgsAtI[10]){
+void printHistory(char** commands, char *arguments[1000][20], int length, int numberOfArgsAtI[1000]){
 	int i, j;
-	for (i=0;i<length;i++){
+	i = length - 10;
+	if (i<0) i=0;
+	for (i;i<length;i++){
 		
 		printf("%d) %s",(i+1), commands[i]);
 		for (j = 0;j<numberOfArgsAtI[i];j++){
@@ -145,7 +212,25 @@ void printHistory(char** commands, char *arguments[10][20], int length, int numb
 		printf("\n");
 	}
 }
+void printBackgroundJobs(int bgProcesses[1000],int length, char** commands, char *arguments[1000][20], int numberOfArgsAtI[1000], int associatedIndex[1000]){
+	int i, j;
+	int status;
+	int numberOfJobs = 0;
+	for (i=0;i<length;i++){
+		status = waitpid(bgProcesses[i],NULL,WNOHANG);
+		if (status == 0) {
+			numberOfJobs++;
+			printf("%d) pid: %d", numberOfJobs, bgProcesses[i]);
+			//printf(", number: %d, associatedIndex[numberOfJobs-1]: %d",numberOfJobs,associatedIndex[numberOfJobs-1]);
+			printf(", %s", commands[associatedIndex[numberOfJobs-1]]);
+			for (j = 0;j<numberOfArgsAtI[associatedIndex[numberOfJobs-1]];j++){
+				printf(" %s", arguments[associatedIndex[numberOfJobs-1]][j]);
+			}
+			printf("\n");
+		}
+	}
+}
 int freecmd(){
  	// you need to implement this one. Might need some modifications to
- 	// getcmd() provided with the assignmenti
+ 	// getcmd() provided with the assignment
 }
