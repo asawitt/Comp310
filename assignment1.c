@@ -50,6 +50,7 @@ int getcmd(char *prompt, char *args[], int *background)
 	
 int main(void)
 {
+	int reverseAssociatedPID[1000];
 	int bgAssociatedIndexInCommandArray[1000];
 	int numberOfBgProcesses = 0;
 	int backgroundProcesses[1000];
@@ -99,17 +100,17 @@ int main(void)
 			
 		}
 		//checks for built in command "exit"
-		if (!strcmp("exit",args[0])){
+		else if (!strcmp("exit",args[0])){
 			printf("Bye!\n");
 			exit(-1);
 		}
 		//checks for built in command "jobs"
-		if (!strcmp("jobs",args[0])){
-			printBackgroundJobs(backgroundProcesses, numberOfBgProcesses, commandHistory, argHistory, numberOfArgsAtI, bgAssociatedIndexInCommandArray);
+		else if (!strcmp("jobs",args[0])){
+			printBackgroundJobs(backgroundProcesses, numberOfBgProcesses, commandHistory, argHistory, numberOfArgsAtI, bgAssociatedIndexInCommandArray, reverseAssociatedPID);
 			execute = 0;
 		}
 		//Checks for history commands in format "r\n" or "r x\n"
-		if (!strcmp("r",args[0])){
+		else if (!strcmp("r",args[0])){
 			//Searches commandHistory array for most recently added command which starts with the given character (args[1])
 			int historyNumber = 1;
 			if (args[1] != NULL){
@@ -153,6 +154,26 @@ int main(void)
 		else if (!strcmp("history", args[0])){
 			execute = 0;
 			printHistory(commandHistory,argHistory,historyLength, numberOfArgsAtI);
+		}
+		//Checks for "fg" command 
+		else if (!strcmp("fg",args[0])){
+			
+			execute = 0;
+			if(args[1] != NULL){
+				int arg1 = atoi(args[1]);
+				int status = waitpid(reverseAssociatedPID[arg1],NULL,WNOHANG);
+				if (status != 0) {
+					printf("That job has already finished, or doesn't exist, try the command with a process currently executing in the background \n");
+				}
+				else {
+					printf("Waiting for Child Process: %d, with PID: %d\n", arg1, reverseAssociatedPID[arg1]);
+					waitpid(reverseAssociatedPID[arg1], NULL, 0);
+				}
+			}
+			else {
+				printf("Please enter a second argument denoting the number of the job, as found after executing the \"jobs\" command\n");
+			}
+			
 		}
 		//Main command execution
 		if (execute) {
@@ -212,17 +233,19 @@ void printHistory(char** commands, char *arguments[1000][20], int length, int nu
 		printf("\n");
 	}
 }
-void printBackgroundJobs(int bgProcesses[1000],int length, char** commands, char *arguments[1000][20], int numberOfArgsAtI[1000], int associatedIndex[1000]){
+void printBackgroundJobs(int bgProcesses[1000],int length, char** commands, char *arguments[1000][20], int numberOfArgsAtI[1000], int associatedIndex[1000], int reverseAssociatedPID[1000]){
 	int i, j;
 	int status;
 	int numberOfJobs = 0;
 	for (i=0;i<length;i++){
 		status = waitpid(bgProcesses[i],NULL,WNOHANG);
 		if (status == 0) {
+			
 			numberOfJobs++;
-			printf("%d) pid: %d", numberOfJobs, bgProcesses[i]);
-			//printf(", number: %d, associatedIndex[numberOfJobs-1]: %d",numberOfJobs,associatedIndex[numberOfJobs-1]);
-			printf(", %s", commands[associatedIndex[numberOfJobs-1]]);
+			reverseAssociatedPID[numberOfJobs] = bgProcesses[i];
+			printf("ReverseAssociatedIndex of: %d is %d\n", numberOfJobs, bgProcesses[i]);
+			printf("[%d) pid: %d]:", numberOfJobs, bgProcesses[i]);
+			printf(" %s", commands[associatedIndex[numberOfJobs-1]]);
 			for (j = 0;j<numberOfArgsAtI[associatedIndex[numberOfJobs-1]];j++){
 				printf(" %s", arguments[associatedIndex[numberOfJobs-1]][j]);
 			}
