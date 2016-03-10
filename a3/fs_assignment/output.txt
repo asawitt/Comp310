@@ -1,0 +1,1438 @@
+Initializing disk
+Writing superblock
+Setting up superblock
+Writing root directory
+Writing free blocks
+writing free blocks to disk 
+Filename is too long, not creating file
+Creating new file with name: AYWPZPYHEHGQARGC.OZV at index: 0 in the File Descriptor Table
+Cannot open file: AYWPZPYHEHGQARGC.OZV, file already open.
+Creating new file with name: OPLUVDRZEIVEHRVI.GTR at index: 1 in the File Descriptor Table
+Cannot open file: OPLUVDRZEIVEHRVI.GTR, file already open.
+File is open, closing....
+Closing file at FileDescriptorTable 0: AYWPZPYHEHGQARGC.OZV
+Two files created with zero length:
+Error, No file open at index 0 in the File Descriptor Table
+Error, No file open at index 0 in the File Descriptor Table
+Error, No file open at index 0 in the File Descriptor Table
+Error, No file open at index 0 in the File Descriptor Table
+Error, No file open at index 0 in the File Descriptor Table
+Error, No file open at index 0 in the File Descriptor Table
+Error, No file open at index 0 in the File Descriptor Table
+Error, No file open at index 0 in the File Descriptor Table
+Error, No file open at index 0 in the File Descriptor Table
+Error, No file open at index 0 in the File Descriptor Table
+Error, No file open at index 0 in the File Descriptor Table
+Error, No file open at index 0 in the File Descriptor Table
+sfs_getfilesize(AYWPZPYHEHGQARGC.OZV) fail. Is AYWPZPYHEHGQARGC.OZV a valid filename?
+Writing 17489 bytes to file at ID: 1
+Writing 6 bytes to file at ID: 1
+Writing 49 bytes to file at ID: 1
+Writing 6 bytes to file at ID: 1
+Writing 19 bytes to file at ID: 1
+Writing 8 bytes to file at ID: 1
+Closing file at FileDescriptorTable 1: OPLUVDRZEIVEHRVI.GTR
+No open file at index 1 in the File Descriptor Table
+File AYWPZPYHEHGQARGC.OZV now has length 19876 and OPLUVDRZEIVEHRVI.GTR now has length 17577:
+Error, can't read from a closed file. No file open at index 1 in the File Descriptor Table
+Opening OPLUVDRZEIVEHRVI.GTR
+Error, can't seek in closed file. No file open at index 1 in the File Descriptor Table
+14485 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Reading 14485 bytes from FileDescriptorTable 0: OPLUVDRZEIVEHRVI.GTR
+838 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 149
+Reading 838 bytes from FileDescriptorTable 0: OPLUVDRZEIVEHRVI.GTR
+4429 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 987
+Reading 4429 bytes from FileDescriptorTable 0: OPLUVDRZEIVEHRVI.GTR
+35 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 296
+Reading 35 bytes from FileDescriptorTable 0: OPLUVDRZEIVEHRVI.GTR
+39 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 331
+Reading 39 bytes from FileDescriptorTable 0: OPLUVDRZEIVEHRVI.GTR
+23 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 370
+Reading 23 bytes from FileDescriptorTable 0: OPLUVDRZEIVEHRVI.GTR
+16 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 393
+Reading 16 bytes from FileDescriptorTable 0: OPLUVDRZEIVEHRVI.GTR
+4 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 409
+Reading 4 bytes from FileDescriptorTable 0: OPLUVDRZEIVEHRVI.GTR
+7 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 413
+Reading 7 bytes from FileDescriptorTable 0: OPLUVDRZEIVEHRVI.GTR
+708 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 420
+Reading 708 bytes from FileDescriptorTable 0: OPLUVDRZEIVEHRVI.GTR
+11396 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 104
+Reading 11396 bytes from FileDescriptorTable 0: OPLUVDRZEIVEHRVI.GTR
+3228 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 236
+Reading 3228 bytes from FileDescriptorTable 0: OPLUVDRZEIVEHRVI.GTR
+1606 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 392
+Reading 1606 bytes from FileDescriptorTable 0: OPLUVDRZEIVEHRVI.GTR
+297 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 974
+Reading 297 bytes from FileDescriptorTable 0: OPLUVDRZEIVEHRVI.GTR
+269 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 247
+Reading 269 bytes from FileDescriptorTable 0: OPLUVDRZEIVEHRVI.GTR
+39 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 516
+Reading 39 bytes from FileDescriptorTable 0: OPLUVDRZEIVEHRVI.GTR
+1 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 555
+Reading 1 bytes from FileDescriptorTable 0: OPLUVDRZEIVEHRVI.GTR
+11 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 556
+Reading 11 bytes from FileDescriptorTable 0: OPLUVDRZEIVEHRVI.GTR
+19 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 567
+Reading 19 bytes from FileDescriptorTable 0: OPLUVDRZEIVEHRVI.GTR
+3 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 586
+Reading 3 bytes from FileDescriptorTable 0: OPLUVDRZEIVEHRVI.GTR
+Closing file at FileDescriptorTable 0: OPLUVDRZEIVEHRVI.GTR
+No open file at index 0 in the File Descriptor Table
+No open file at index 0 in the File Descriptor Table
+No open file at index 0 in the File Descriptor Table
+File doesn't exist, can't delete a file that doesn't exist
+Creating new file with name: BXUKEHODJMPICDZU.XZG at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: BXUKEHODJMPICDZU.XZG
+Creating new file with name: XHMTAAKIDGQLHPGR.TNH at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: XHMTAAKIDGQLHPGR.TNH
+Creating new file with name: YYTNJYTISQJAQROJ.TQV at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: YYTNJYTISQJAQROJ.TQV
+Creating new file with name: DTDTHKKNDFCMDDGS.MEL at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: DTDTHKKNDFCMDDGS.MEL
+Creating new file with name: WYEGAUXPFSHAVBDQ.IPA at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: WYEGAUXPFSHAVBDQ.IPA
+Creating new file with name: XUHBGMEOESUSPUYV.VSU at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: XUHBGMEOESUSPUYV.VSU
+Creating new file with name: MXMTZJWEZGVBDRKH.XWL at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: MXMTZJWEZGVBDRKH.XWL
+Creating new file with name: OCGKUVFSQCMMOLAJ.KJG at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: OCGKUVFSQCMMOLAJ.KJG
+Creating new file with name: QKMLNSEXZETKSXSE.SNJ at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: QKMLNSEXZETKSXSE.SNJ
+Creating new file with name: MFNZRBMTNXCTPMFD.BXH at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: MFNZRBMTNXCTPMFD.BXH
+Creating new file with name: YYLTLDRDKLRTXYJY.SKL at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: YYLTLDRDKLRTXYJY.SKL
+Creating new file with name: LZKOSZCAEGZMEYXA.JDR at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: LZKOSZCAEGZMEYXA.JDR
+Creating new file with name: MNEDIDERCWEPHDBX.WCC at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: MNEDIDERCWEPHDBX.WCC
+Creating new file with name: WHIXTOVSOEVFRKJW.TNA at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: WHIXTOVSOEVFRKJW.TNA
+Creating new file with name: KRYQIIULFSNJQWRN.PGJ at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: KRYQIIULFSNJQWRN.PGJ
+Creating new file with name: IUNFCGQNFJCHVTGM.DOI at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: IUNFCGQNFJCHVTGM.DOI
+Creating new file with name: OVAEFQAWFSEOAZEH.DMX at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: OVAEFQAWFSEOAZEH.DMX
+Creating new file with name: QRITBEOJSSXAIUAM.ZSP at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: QRITBEOJSSXAIUAM.ZSP
+Creating new file with name: YXHEOHFUQIGOZAWU.DCI at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: YXHEOHFUQIGOZAWU.DCI
+Creating new file with name: MUCLULFWZHQOHQVN.EET at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: MUCLULFWZHQOHQVN.EET
+Creating new file with name: AVBILCKHYNMHZGJM.DWU at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: AVBILCKHYNMHZGJM.DWU
+Creating new file with name: ZWBQKKGIXMMSMJWW.UYH at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: ZWBQKKGIXMMSMJWW.UYH
+Creating new file with name: EZUQGWYRIBOCBMFT.YRB at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: EZUQGWYRIBOCBMFT.YRB
+Creating new file with name: IRNVJBGFXDGGHFBZ.NZX at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: IRNVJBGFXDGGHFBZ.NZX
+Creating new file with name: GJZWOCITVJNYRENO.POV at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: GJZWOCITVJNYRENO.POV
+Creating new file with name: VNYDUHKXGXWDFHCC.VEK at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: VNYDUHKXGXWDFHCC.VEK
+Creating new file with name: PBTEZNIMBZCYWSWZ.OFJ at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: PBTEZNIMBZCYWSWZ.OFJ
+Creating new file with name: LLIJPOQTQMACDDYH.DNR at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: LLIJPOQTQMACDDYH.DNR
+Creating new file with name: ROQWNNOLOCRAPEKY.VAQ at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: ROQWNNOLOCRAPEKY.VAQ
+Creating new file with name: PSCRVHUVOZIHRYAP.NPF at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: PSCRVHUVOZIHRYAP.NPF
+Creating new file with name: ZDJSFYYQYUSOJLTC.IAW at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: ZDJSFYYQYUSOJLTC.IAW
+Creating new file with name: DRWNAPLAEZRLAXUU.CSS at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: DRWNAPLAEZRLAXUU.CSS
+Creating new file with name: USMNIXYBZIEYNXUA.XJN at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: USMNIXYBZIEYNXUA.XJN
+Creating new file with name: APORAOOWKTQDNIRC.QRC at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: APORAOOWKTQDNIRC.QRC
+Creating new file with name: USKAQXXKZWVNWKBO.MSE at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: USKAQXXKZWVNWKBO.MSE
+Creating new file with name: ICXYHNIZPZQSVICX.BCU at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: ICXYHNIZPZQSVICX.BCU
+Creating new file with name: LBQHQPTSFIMJQOHR.WWZ at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: LBQHQPTSFIMJQOHR.WWZ
+Creating new file with name: VLANDXXIUYMQMPHV.GYO at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: VLANDXXIUYMQMPHV.GYO
+Creating new file with name: ADYMMRAVIWRJTFKI.KJI at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: ADYMMRAVIWRJTFKI.KJI
+Creating new file with name: UEIGUUWDPCBGCEEO.TVQ at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: UEIGUUWDPCBGCEEO.TVQ
+Creating new file with name: OFNIPINBTXKBSQLA.NGW at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: OFNIPINBTXKBSQLA.NGW
+Creating new file with name: QXAUFCAMSTJJKPYS.GIH at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: QXAUFCAMSTJJKPYS.GIH
+Creating new file with name: JBETEYMSZZAVRXYL.FCM at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: JBETEYMSZZAVRXYL.FCM
+Creating new file with name: RVHCGRTGJZOQISXE.YVS at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: RVHCGRTGJZOQISXE.YVS
+Creating new file with name: QWRQUIQSWXUKQRRS.XJM at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: QWRQUIQSWXUKQRRS.XJM
+Creating new file with name: DUNUNYMKCMHWFENV.YXN at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: DUNUNYMKCMHWFENV.YXN
+Creating new file with name: QVKMFAEZVDIHHEWD.RUR at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: QVKMFAEZVDIHHEWD.RUR
+Creating new file with name: BWDLUIPHGNHVFEIT.KKX at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: BWDLUIPHGNHVFEIT.KKX
+Creating new file with name: LFBVOKZLNRFGUEJF.YUW at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: LFBVOKZLNRFGUEJF.YUW
+Creating new file with name: ICJRXQVFKHQJSXKN.MWN at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: ICJRXQVFKHQJSXKN.MWN
+Creating new file with name: XLGERCIDIJZERBQI.AID at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: XLGERCIDIJZERBQI.AID
+Creating new file with name: IULAEDXQTLNGKYMP.SQZ at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: IULAEDXQTLNGKYMP.SQZ
+Creating new file with name: XYIWFZZXHBFNJAAL.EFL at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: XYIWFZZXHBFNJAAL.EFL
+Creating new file with name: WYWJEJKSYEJXBJGZ.QHY at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: WYWJEJKSYEJXBJGZ.QHY
+Creating new file with name: NPZVELVEYBJJXKIJ.ORV at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: NPZVELVEYBJJXKIJ.ORV
+Creating new file with name: JPZUOCDWBUEZJVAE.ZNZ at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: JPZUOCDWBUEZJVAE.ZNZ
+Creating new file with name: FMCQXCAFNRYIAPHU.EJZ at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: FMCQXCAFNRYIAPHU.EJZ
+Creating new file with name: AMVELFZNJABLFPNY.MRY at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: AMVELFZNJABLFPNY.MRY
+Creating new file with name: UEPUMRKVNOGNQSIX.FPY at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: UEPUMRKVNOGNQSIX.FPY
+Creating new file with name: TZZWKGNZGBTFXXWS.MQC at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: TZZWKGNZGBTFXXWS.MQC
+Creating new file with name: JDSQSKKDHSSGNTHL.FPY at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: JDSQSKKDHSSGNTHL.FPY
+Creating new file with name: HWBADZXBRLRVVXNN.PXZ at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: HWBADZXBRLRVVXNN.PXZ
+Creating new file with name: UHRNNEIWPOLPVHRX.MQU at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: UHRNNEIWPOLPVHRX.MQU
+Creating new file with name: OJIHEDETSWQRQXLF.MPQ at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: OJIHEDETSWQRQXLF.MPQ
+Creating new file with name: IHEWYBFPYSHUISCP.WHW at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: IHEWYBFPYSHUISCP.WHW
+Creating new file with name: RBUKTMJGUWVKGEQC.FRK at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: RBUKTMJGUWVKGEQC.FRK
+Creating new file with name: UREENMWSDVZZODVY.YII at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: UREENMWSDVZZODVY.YII
+Creating new file with name: ECGBMMIERNVBHOHN.BTM at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: ECGBMMIERNVBHOHN.BTM
+Creating new file with name: TWJVYXYVWWDEAHKD.VYL at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: TWJVYXYVWWDEAHKD.VYL
+Creating new file with name: ZRYWUIKBVOUJHTSC.TSC at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: ZRYWUIKBVOUJHTSC.TSC
+Creating new file with name: OOYUUABGEXGRWYQT.SYF at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: OOYUUABGEXGRWYQT.SYF
+Creating new file with name: UVTQFBLZFGRIVHIP.BLS at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: UVTQFBLZFGRIVHIP.BLS
+Creating new file with name: JRPQIOQAHIYOEUIX.BLK at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: JRPQIOQAHIYOEUIX.BLK
+Creating new file with name: ASRUAOBLFFYXORNG.ZBW at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: ASRUAOBLFFYXORNG.ZBW
+Creating new file with name: AKHAYNWIMZTXCOQW.QEX at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: AKHAYNWIMZTXCOQW.QEX
+Creating new file with name: BJEBGTSVBUYAWIHW.JWV at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: BJEBGTSVBUYAWIHW.JWV
+Creating new file with name: TJUPIWDYSTCSXNWY.TRR at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: TJUPIWDYSTCSXNWY.TRR
+Creating new file with name: RTNPTJACFLACELXT.TTW at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: RTNPTJACFLACELXT.TTW
+Creating new file with name: TOQVGNIENEWEXRTM.MCO at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: TOQVGNIENEWEXRTM.MCO
+Creating new file with name: QKZQMGCJZXFYRTQO.BDZ at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: QKZQMGCJZXFYRTQO.BDZ
+Creating new file with name: HSFFZCYSOKVFCFGT.TMX at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: HSFFZCYSOKVFCFGT.TMX
+Creating new file with name: FMWKMNFCEIHDPZIX.YKV at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: FMWKMNFCEIHDPZIX.YKV
+Creating new file with name: RAGOFITMDOYCTMZD.YOK at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: RAGOFITMDOYCTMZD.YOK
+Creating new file with name: ASSHVKJFHHPCAQKO.XTJ at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: ASSHVKJFHHPCAQKO.XTJ
+Creating new file with name: LYYMDRYEXZSHBNCL.KMU at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: LYYMDRYEXZSHBNCL.KMU
+Creating new file with name: QVDFXEXISXDEIDCU.GTV at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: QVDFXEXISXDEIDCU.GTV
+Creating new file with name: KSUFAXSCIEQCULGA.IMZ at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: KSUFAXSCIEQCULGA.IMZ
+Creating new file with name: SGWXKFBMBJIYWASD.CSX at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: SGWXKFBMBJIYWASD.CSX
+Creating new file with name: EABWFWHNYSZXMFUK.SBN at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: EABWFWHNYSZXMFUK.SBN
+Creating new file with name: EEYODUPXXRPUYQYU.XUE at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: EEYODUPXXRPUYQYU.XUE
+Creating new file with name: KSYLRKSNWKOJRTKF.YEU at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: KSYLRKSNWKOJRTKF.YEU
+Creating new file with name: VEOLAODYKAUQMOOX.GBR at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: VEOLAODYKAUQMOOX.GBR
+Creating new file with name: TXCKJTFTADZXYFLL.GBO at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: TXCKJTFTADZXYFLL.GBO
+Creating new file with name: GLQBCCPSBVTTRTXB.CSG at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: GLQBCCPSBVTTRTXB.CSG
+Creating new file with name: XSLYPJECVKFLSRCT.VGL at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: XSLYPJECVKFLSRCT.VGL
+Creating new file with name: PIIJDZCACGUKFMVD.EHH at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: PIIJDZCACGUKFMVD.EHH
+Creating new file with name: GEROPMFRFCYSRIBC.LCG at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: GEROPMFRFCYSRIBC.LCG
+Creating new file with name: NFOHRTVPXZWEIAYW.RKD at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: NFOHRTVPXZWEIAYW.RKD
+Creating new file with name: LRHLKYTLDGNLTUAC.MTX at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: LRHLKYTLDGNLTUAC.MTX
+Creating new file with name: DQXZVHBVDUFIFWPQ.GPL at index: 0 in the File Descriptor Table
+Closing file at FileDescriptorTable 0: DQXZVHBVDUFIFWPQ.GPL
+Created 100 files in the root directory
+Opening BXUKEHODJMPICDZU.XZG
+Opening XHMTAAKIDGQLHPGR.TNH
+Opening YYTNJYTISQJAQROJ.TQV
+Opening DTDTHKKNDFCMDDGS.MEL
+Opening WYEGAUXPFSHAVBDQ.IPA
+Opening XUHBGMEOESUSPUYV.VSU
+Opening MXMTZJWEZGVBDRKH.XWL
+Opening OCGKUVFSQCMMOLAJ.KJG
+Opening QKMLNSEXZETKSXSE.SNJ
+Opening MFNZRBMTNXCTPMFD.BXH
+Opening YYLTLDRDKLRTXYJY.SKL
+Opening LZKOSZCAEGZMEYXA.JDR
+Opening MNEDIDERCWEPHDBX.WCC
+Opening WHIXTOVSOEVFRKJW.TNA
+Opening KRYQIIULFSNJQWRN.PGJ
+Opening IUNFCGQNFJCHVTGM.DOI
+Opening OVAEFQAWFSEOAZEH.DMX
+Opening QRITBEOJSSXAIUAM.ZSP
+Opening YXHEOHFUQIGOZAWU.DCI
+Opening MUCLULFWZHQOHQVN.EET
+Opening AVBILCKHYNMHZGJM.DWU
+Opening ZWBQKKGIXMMSMJWW.UYH
+Opening EZUQGWYRIBOCBMFT.YRB
+Opening IRNVJBGFXDGGHFBZ.NZX
+Opening GJZWOCITVJNYRENO.POV
+Opening VNYDUHKXGXWDFHCC.VEK
+Opening PBTEZNIMBZCYWSWZ.OFJ
+Opening LLIJPOQTQMACDDYH.DNR
+Opening ROQWNNOLOCRAPEKY.VAQ
+Opening PSCRVHUVOZIHRYAP.NPF
+Opening ZDJSFYYQYUSOJLTC.IAW
+Opening DRWNAPLAEZRLAXUU.CSS
+Opening USMNIXYBZIEYNXUA.XJN
+Opening APORAOOWKTQDNIRC.QRC
+Opening USKAQXXKZWVNWKBO.MSE
+Opening ICXYHNIZPZQSVICX.BCU
+Opening LBQHQPTSFIMJQOHR.WWZ
+Opening VLANDXXIUYMQMPHV.GYO
+Opening ADYMMRAVIWRJTFKI.KJI
+Opening UEIGUUWDPCBGCEEO.TVQ
+Opening OFNIPINBTXKBSQLA.NGW
+Opening QXAUFCAMSTJJKPYS.GIH
+Opening JBETEYMSZZAVRXYL.FCM
+Opening RVHCGRTGJZOQISXE.YVS
+Opening QWRQUIQSWXUKQRRS.XJM
+Opening DUNUNYMKCMHWFENV.YXN
+Opening QVKMFAEZVDIHHEWD.RUR
+Opening BWDLUIPHGNHVFEIT.KKX
+Opening LFBVOKZLNRFGUEJF.YUW
+Opening ICJRXQVFKHQJSXKN.MWN
+sfs_fopen failed: error -1, max # of simultaneously open files reached
+Simultaneously opened 50 files
+Writing 45 bytes to file at ID: 0
+Closing file at FileDescriptorTable 0: BXUKEHODJMPICDZU.XZG
+Writing 45 bytes to file at ID: 1
+Closing file at FileDescriptorTable 1: XHMTAAKIDGQLHPGR.TNH
+Writing 45 bytes to file at ID: 2
+Closing file at FileDescriptorTable 2: YYTNJYTISQJAQROJ.TQV
+Writing 45 bytes to file at ID: 3
+Closing file at FileDescriptorTable 3: DTDTHKKNDFCMDDGS.MEL
+Writing 45 bytes to file at ID: 4
+Closing file at FileDescriptorTable 4: WYEGAUXPFSHAVBDQ.IPA
+Writing 45 bytes to file at ID: 5
+Closing file at FileDescriptorTable 5: XUHBGMEOESUSPUYV.VSU
+Writing 45 bytes to file at ID: 6
+Closing file at FileDescriptorTable 6: MXMTZJWEZGVBDRKH.XWL
+Writing 45 bytes to file at ID: 7
+Closing file at FileDescriptorTable 7: OCGKUVFSQCMMOLAJ.KJG
+Writing 45 bytes to file at ID: 8
+Closing file at FileDescriptorTable 8: QKMLNSEXZETKSXSE.SNJ
+Writing 45 bytes to file at ID: 9
+Closing file at FileDescriptorTable 9: MFNZRBMTNXCTPMFD.BXH
+Writing 45 bytes to file at ID: 10
+Closing file at FileDescriptorTable 10: YYLTLDRDKLRTXYJY.SKL
+Writing 45 bytes to file at ID: 11
+Closing file at FileDescriptorTable 11: LZKOSZCAEGZMEYXA.JDR
+Writing 45 bytes to file at ID: 12
+Closing file at FileDescriptorTable 12: MNEDIDERCWEPHDBX.WCC
+Writing 45 bytes to file at ID: 13
+Closing file at FileDescriptorTable 13: WHIXTOVSOEVFRKJW.TNA
+Writing 45 bytes to file at ID: 14
+Closing file at FileDescriptorTable 14: KRYQIIULFSNJQWRN.PGJ
+Writing 45 bytes to file at ID: 15
+Closing file at FileDescriptorTable 15: IUNFCGQNFJCHVTGM.DOI
+Writing 45 bytes to file at ID: 16
+Closing file at FileDescriptorTable 16: OVAEFQAWFSEOAZEH.DMX
+Writing 45 bytes to file at ID: 17
+Closing file at FileDescriptorTable 17: QRITBEOJSSXAIUAM.ZSP
+Writing 45 bytes to file at ID: 18
+Closing file at FileDescriptorTable 18: YXHEOHFUQIGOZAWU.DCI
+Writing 45 bytes to file at ID: 19
+Closing file at FileDescriptorTable 19: MUCLULFWZHQOHQVN.EET
+Writing 45 bytes to file at ID: 20
+Closing file at FileDescriptorTable 20: AVBILCKHYNMHZGJM.DWU
+Writing 45 bytes to file at ID: 21
+Closing file at FileDescriptorTable 21: ZWBQKKGIXMMSMJWW.UYH
+Writing 45 bytes to file at ID: 22
+Closing file at FileDescriptorTable 22: EZUQGWYRIBOCBMFT.YRB
+Writing 45 bytes to file at ID: 23
+Closing file at FileDescriptorTable 23: IRNVJBGFXDGGHFBZ.NZX
+Writing 45 bytes to file at ID: 24
+Closing file at FileDescriptorTable 24: GJZWOCITVJNYRENO.POV
+Writing 45 bytes to file at ID: 25
+Closing file at FileDescriptorTable 25: VNYDUHKXGXWDFHCC.VEK
+Writing 45 bytes to file at ID: 26
+Closing file at FileDescriptorTable 26: PBTEZNIMBZCYWSWZ.OFJ
+Writing 45 bytes to file at ID: 27
+Closing file at FileDescriptorTable 27: LLIJPOQTQMACDDYH.DNR
+Writing 45 bytes to file at ID: 28
+Closing file at FileDescriptorTable 28: ROQWNNOLOCRAPEKY.VAQ
+Writing 45 bytes to file at ID: 29
+Closing file at FileDescriptorTable 29: PSCRVHUVOZIHRYAP.NPF
+Writing 45 bytes to file at ID: 30
+Closing file at FileDescriptorTable 30: ZDJSFYYQYUSOJLTC.IAW
+Writing 45 bytes to file at ID: 31
+Closing file at FileDescriptorTable 31: DRWNAPLAEZRLAXUU.CSS
+Writing 45 bytes to file at ID: 32
+Closing file at FileDescriptorTable 32: USMNIXYBZIEYNXUA.XJN
+Writing 45 bytes to file at ID: 33
+Closing file at FileDescriptorTable 33: APORAOOWKTQDNIRC.QRC
+Writing 45 bytes to file at ID: 34
+Closing file at FileDescriptorTable 34: USKAQXXKZWVNWKBO.MSE
+Writing 45 bytes to file at ID: 35
+Closing file at FileDescriptorTable 35: ICXYHNIZPZQSVICX.BCU
+Writing 45 bytes to file at ID: 36
+Closing file at FileDescriptorTable 36: LBQHQPTSFIMJQOHR.WWZ
+Writing 45 bytes to file at ID: 37
+Closing file at FileDescriptorTable 37: VLANDXXIUYMQMPHV.GYO
+Writing 45 bytes to file at ID: 38
+Closing file at FileDescriptorTable 38: ADYMMRAVIWRJTFKI.KJI
+Writing 45 bytes to file at ID: 39
+Closing file at FileDescriptorTable 39: UEIGUUWDPCBGCEEO.TVQ
+Writing 45 bytes to file at ID: 40
+Closing file at FileDescriptorTable 40: OFNIPINBTXKBSQLA.NGW
+Writing 45 bytes to file at ID: 41
+Closing file at FileDescriptorTable 41: QXAUFCAMSTJJKPYS.GIH
+Writing 45 bytes to file at ID: 42
+Closing file at FileDescriptorTable 42: JBETEYMSZZAVRXYL.FCM
+Writing 45 bytes to file at ID: 43
+Closing file at FileDescriptorTable 43: RVHCGRTGJZOQISXE.YVS
+Writing 45 bytes to file at ID: 44
+Closing file at FileDescriptorTable 44: QWRQUIQSWXUKQRRS.XJM
+Writing 45 bytes to file at ID: 45
+Closing file at FileDescriptorTable 45: DUNUNYMKCMHWFENV.YXN
+Writing 45 bytes to file at ID: 46
+Closing file at FileDescriptorTable 46: QVKMFAEZVDIHHEWD.RUR
+Writing 45 bytes to file at ID: 47
+Closing file at FileDescriptorTable 47: BWDLUIPHGNHVFEIT.KKX
+Writing 45 bytes to file at ID: 48
+Closing file at FileDescriptorTable 48: LFBVOKZLNRFGUEJF.YUW
+Writing 45 bytes to file at ID: 49
+Closing file at FileDescriptorTable 49: ICJRXQVFKHQJSXKN.MWN
+Opening ICJRXQVFKHQJSXKN.MWN
+Opening LFBVOKZLNRFGUEJF.YUW
+Opening BWDLUIPHGNHVFEIT.KKX
+Opening QVKMFAEZVDIHHEWD.RUR
+Opening DUNUNYMKCMHWFENV.YXN
+Opening QWRQUIQSWXUKQRRS.XJM
+Opening RVHCGRTGJZOQISXE.YVS
+Opening JBETEYMSZZAVRXYL.FCM
+Opening QXAUFCAMSTJJKPYS.GIH
+Opening OFNIPINBTXKBSQLA.NGW
+Opening UEIGUUWDPCBGCEEO.TVQ
+Opening ADYMMRAVIWRJTFKI.KJI
+Opening VLANDXXIUYMQMPHV.GYO
+Opening LBQHQPTSFIMJQOHR.WWZ
+Opening ICXYHNIZPZQSVICX.BCU
+Opening USKAQXXKZWVNWKBO.MSE
+Opening APORAOOWKTQDNIRC.QRC
+Opening USMNIXYBZIEYNXUA.XJN
+Opening DRWNAPLAEZRLAXUU.CSS
+Opening ZDJSFYYQYUSOJLTC.IAW
+Opening PSCRVHUVOZIHRYAP.NPF
+Opening ROQWNNOLOCRAPEKY.VAQ
+Opening LLIJPOQTQMACDDYH.DNR
+Opening PBTEZNIMBZCYWSWZ.OFJ
+Opening VNYDUHKXGXWDFHCC.VEK
+Opening GJZWOCITVJNYRENO.POV
+Opening IRNVJBGFXDGGHFBZ.NZX
+Opening EZUQGWYRIBOCBMFT.YRB
+Opening ZWBQKKGIXMMSMJWW.UYH
+Opening AVBILCKHYNMHZGJM.DWU
+Opening MUCLULFWZHQOHQVN.EET
+Opening YXHEOHFUQIGOZAWU.DCI
+Opening QRITBEOJSSXAIUAM.ZSP
+Opening OVAEFQAWFSEOAZEH.DMX
+Opening IUNFCGQNFJCHVTGM.DOI
+Opening KRYQIIULFSNJQWRN.PGJ
+Opening WHIXTOVSOEVFRKJW.TNA
+Opening MNEDIDERCWEPHDBX.WCC
+Opening LZKOSZCAEGZMEYXA.JDR
+Opening YYLTLDRDKLRTXYJY.SKL
+Opening MFNZRBMTNXCTPMFD.BXH
+Opening QKMLNSEXZETKSXSE.SNJ
+Opening OCGKUVFSQCMMOLAJ.KJG
+Opening MXMTZJWEZGVBDRKH.XWL
+Opening XUHBGMEOESUSPUYV.VSU
+Opening WYEGAUXPFSHAVBDQ.IPA
+Opening DTDTHKKNDFCMDDGS.MEL
+Opening YYTNJYTISQJAQROJ.TQV
+Opening XHMTAAKIDGQLHPGR.TNH
+Opening BXUKEHODJMPICDZU.XZG
+1 Byte(s) requested from fileID: 49
+RWPTR GOING IN: 0
+Reading 1 bytes from FileDescriptorTable 49: BXUKEHODJMPICDZU.XZG
+1 Byte(s) requested from fileID: 48
+RWPTR GOING IN: 0
+Reading 1 bytes from FileDescriptorTable 48: XHMTAAKIDGQLHPGR.TNH
+1 Byte(s) requested from fileID: 49
+RWPTR GOING IN: 1
+Reading 1 bytes from FileDescriptorTable 49: BXUKEHODJMPICDZU.XZG
+1 Byte(s) requested from fileID: 48
+RWPTR GOING IN: 1
+Reading 1 bytes from FileDescriptorTable 48: XHMTAAKIDGQLHPGR.TNH
+1 Byte(s) requested from fileID: 49
+RWPTR GOING IN: 2
+Reading 1 bytes from FileDescriptorTable 49: BXUKEHODJMPICDZU.XZG
+1 Byte(s) requested from fileID: 48
+RWPTR GOING IN: 2
+Reading 1 bytes from FileDescriptorTable 48: XHMTAAKIDGQLHPGR.TNH
+1 Byte(s) requested from fileID: 49
+RWPTR GOING IN: 3
+Reading 1 bytes from FileDescriptorTable 49: BXUKEHODJMPICDZU.XZG
+1 Byte(s) requested from fileID: 48
+RWPTR GOING IN: 3
+Reading 1 bytes from FileDescriptorTable 48: XHMTAAKIDGQLHPGR.TNH
+1 Byte(s) requested from fileID: 49
+RWPTR GOING IN: 4
+Reading 1 bytes from FileDescriptorTable 49: BXUKEHODJMPICDZU.XZG
+1 Byte(s) requested from fileID: 48
+RWPTR GOING IN: 4
+Reading 1 bytes from FileDescriptorTable 48: XHMTAAKIDGQLHPGR.TNH
+1 Byte(s) requested from fileID: 49
+RWPTR GOING IN: 5
+Reading 1 bytes from FileDescriptorTable 49: BXUKEHODJMPICDZU.XZG
+1 Byte(s) requested from fileID: 48
+RWPTR GOING IN: 5
+Reading 1 bytes from FileDescriptorTable 48: XHMTAAKIDGQLHPGR.TNH
+1 Byte(s) requested from fileID: 49
+RWPTR GOING IN: 6
+Reading 1 bytes from FileDescriptorTable 49: BXUKEHODJMPICDZU.XZG
+1 Byte(s) requested from fileID: 48
+RWPTR GOING IN: 6
+Reading 1 bytes from FileDescriptorTable 48: XHMTAAKIDGQLHPGR.TNH
+1 Byte(s) requested from fileID: 49
+RWPTR GOING IN: 7
+Reading 1 bytes from FileDescriptorTable 49: BXUKEHODJMPICDZU.XZG
+1 Byte(s) requested from fileID: 48
+RWPTR GOING IN: 7
+Reading 1 bytes from FileDescriptorTable 48: XHMTAAKIDGQLHPGR.TNH
+1 Byte(s) requested from fileID: 49
+RWPTR GOING IN: 8
+Reading 1 bytes from FileDescriptorTable 49: BXUKEHODJMPICDZU.XZG
+1 Byte(s) requested from fileID: 48
+RWPTR GOING IN: 8
+Reading 1 bytes from FileDescriptorTable 48: XHMTAAKIDGQLHPGR.TNH
+1 Byte(s) requested from fileID: 49
+RWPTR GOING IN: 9
+Reading 1 bytes from FileDescriptorTable 49: BXUKEHODJMPICDZU.XZG
+1 Byte(s) requested from fileID: 48
+RWPTR GOING IN: 9
+Reading 1 bytes from FileDescriptorTable 48: XHMTAAKIDGQLHPGR.TNH
+1 Byte(s) requested from fileID: 49
+RWPTR GOING IN: 10
+Reading 1 bytes from FileDescriptorTable 49: BXUKEHODJMPICDZU.XZG
+1 Byte(s) requested from fileID: 48
+RWPTR GOING IN: 10
+Reading 1 bytes from FileDescriptorTable 48: XHMTAAKIDGQLHPGR.TNH
+1 Byte(s) requested from fileID: 49
+RWPTR GOING IN: 11
+Reading 1 bytes from FileDescriptorTable 49: BXUKEHODJMPICDZU.XZG
+1 Byte(s) requested from fileID: 48
+RWPTR GOING IN: 11
+Reading 1 bytes from FileDescriptorTable 48: XHMTAAKIDGQLHPGR.TNH
+1 Byte(s) requested from fileID: 49
+RWPTR GOING IN: 12
+Reading 1 bytes from FileDescriptorTable 49: BXUKEHODJMPICDZU.XZG
+1 Byte(s) requested from fileID: 48
+RWPTR GOING IN: 12
+Reading 1 bytes from FileDescriptorTable 48: XHMTAAKIDGQLHPGR.TNH
+1 Byte(s) requested from fileID: 49
+RWPTR GOING IN: 13
+Reading 1 bytes from FileDescriptorTable 49: BXUKEHODJMPICDZU.XZG
+1 Byte(s) requested from fileID: 48
+RWPTR GOING IN: 13
+Reading 1 bytes from FileDescriptorTable 48: XHMTAAKIDGQLHPGR.TNH
+1 Byte(s) requested from fileID: 49
+RWPTR GOING IN: 14
+Reading 1 bytes from FileDescriptorTable 49: BXUKEHODJMPICDZU.XZG
+1 Byte(s) requested from fileID: 48
+RWPTR GOING IN: 14
+Reading 1 bytes from FileDescriptorTable 48: XHMTAAKIDGQLHPGR.TNH
+1 Byte(s) requested from fileID: 49
+RWPTR GOING IN: 15
+Reading 1 bytes from FileDescriptorTable 49: BXUKEHODJMPICDZU.XZG
+1 Byte(s) requested from fileID: 48
+RWPTR GOING IN: 15
+Reading 1 bytes from FileDescriptorTable 48: XHMTAAKIDGQLHPGR.TNH
+1 Byte(s) requested from fileID: 49
+RWPTR GOING IN: 16
+Reading 1 bytes from FileDescriptorTable 49: BXUKEHODJMPICDZU.XZG
+1 Byte(s) requested from fileID: 48
+RWPTR GOING IN: 16
+Reading 1 bytes from FileDescriptorTable 48: XHMTAAKIDGQLHPGR.TNH
+1 Byte(s) requested from fileID: 49
+RWPTR GOING IN: 17
+Reading 1 bytes from FileDescriptorTable 49: BXUKEHODJMPICDZU.XZG
+1 Byte(s) requested from fileID: 48
+RWPTR GOING IN: 17
+Reading 1 bytes from FileDescriptorTable 48: XHMTAAKIDGQLHPGR.TNH
+1 Byte(s) requested from fileID: 49
+RWPTR GOING IN: 18
+Reading 1 bytes from FileDescriptorTable 49: BXUKEHODJMPICDZU.XZG
+1 Byte(s) requested from fileID: 48
+RWPTR GOING IN: 18
+Reading 1 bytes from FileDescriptorTable 48: XHMTAAKIDGQLHPGR.TNH
+1 Byte(s) requested from fileID: 49
+RWPTR GOING IN: 19
+Reading 1 bytes from FileDescriptorTable 49: BXUKEHODJMPICDZU.XZG
+1 Byte(s) requested from fileID: 48
+RWPTR GOING IN: 19
+Reading 1 bytes from FileDescriptorTable 48: XHMTAAKIDGQLHPGR.TNH
+1 Byte(s) requested from fileID: 49
+RWPTR GOING IN: 20
+Reading 1 bytes from FileDescriptorTable 49: BXUKEHODJMPICDZU.XZG
+1 Byte(s) requested from fileID: 48
+RWPTR GOING IN: 20
+Reading 1 bytes from FileDescriptorTable 48: XHMTAAKIDGQLHPGR.TNH
+1 Byte(s) requested from fileID: 49
+RWPTR GOING IN: 21
+Reading 1 bytes from FileDescriptorTable 49: BXUKEHODJMPICDZU.XZG
+1 Byte(s) requested from fileID: 48
+RWPTR GOING IN: 21
+Reading 1 bytes from FileDescriptorTable 48: XHMTAAKIDGQLHPGR.TNH
+1 Byte(s) requested from fileID: 49
+RWPTR GOING IN: 22
+Reading 1 bytes from FileDescriptorTable 49: BXUKEHODJMPICDZU.XZG
+1 Byte(s) requested from fileID: 48
+RWPTR GOING IN: 22
+Reading 1 bytes from FileDescriptorTable 48: XHMTAAKIDGQLHPGR.TNH
+1 Byte(s) requested from fileID: 49
+RWPTR GOING IN: 23
+Reading 1 bytes from FileDescriptorTable 49: BXUKEHODJMPICDZU.XZG
+1 Byte(s) requested from fileID: 48
+RWPTR GOING IN: 23
+Reading 1 bytes from FileDescriptorTable 48: XHMTAAKIDGQLHPGR.TNH
+1 Byte(s) requested from fileID: 49
+RWPTR GOING IN: 24
+Reading 1 bytes from FileDescriptorTable 49: BXUKEHODJMPICDZU.XZG
+1 Byte(s) requested from fileID: 48
+RWPTR GOING IN: 24
+Reading 1 bytes from FileDescriptorTable 48: XHMTAAKIDGQLHPGR.TNH
+1 Byte(s) requested from fileID: 49
+RWPTR GOING IN: 25
+Reading 1 bytes from FileDescriptorTable 49: BXUKEHODJMPICDZU.XZG
+1 Byte(s) requested from fileID: 48
+RWPTR GOING IN: 25
+Reading 1 bytes from FileDescriptorTable 48: XHMTAAKIDGQLHPGR.TNH
+1 Byte(s) requested from fileID: 49
+RWPTR GOING IN: 26
+Reading 1 bytes from FileDescriptorTable 49: BXUKEHODJMPICDZU.XZG
+1 Byte(s) requested from fileID: 48
+RWPTR GOING IN: 26
+Reading 1 bytes from FileDescriptorTable 48: XHMTAAKIDGQLHPGR.TNH
+1 Byte(s) requested from fileID: 49
+RWPTR GOING IN: 27
+Reading 1 bytes from FileDescriptorTable 49: BXUKEHODJMPICDZU.XZG
+1 Byte(s) requested from fileID: 48
+RWPTR GOING IN: 27
+Reading 1 bytes from FileDescriptorTable 48: XHMTAAKIDGQLHPGR.TNH
+1 Byte(s) requested from fileID: 49
+RWPTR GOING IN: 28
+Reading 1 bytes from FileDescriptorTable 49: BXUKEHODJMPICDZU.XZG
+1 Byte(s) requested from fileID: 48
+RWPTR GOING IN: 28
+Reading 1 bytes from FileDescriptorTable 48: XHMTAAKIDGQLHPGR.TNH
+1 Byte(s) requested from fileID: 49
+RWPTR GOING IN: 29
+Reading 1 bytes from FileDescriptorTable 49: BXUKEHODJMPICDZU.XZG
+1 Byte(s) requested from fileID: 48
+RWPTR GOING IN: 29
+Reading 1 bytes from FileDescriptorTable 48: XHMTAAKIDGQLHPGR.TNH
+1 Byte(s) requested from fileID: 49
+RWPTR GOING IN: 30
+Reading 1 bytes from FileDescriptorTable 49: BXUKEHODJMPICDZU.XZG
+1 Byte(s) requested from fileID: 48
+RWPTR GOING IN: 30
+Reading 1 bytes from FileDescriptorTable 48: XHMTAAKIDGQLHPGR.TNH
+1 Byte(s) requested from fileID: 49
+RWPTR GOING IN: 31
+Reading 1 bytes from FileDescriptorTable 49: BXUKEHODJMPICDZU.XZG
+1 Byte(s) requested from fileID: 48
+RWPTR GOING IN: 31
+Reading 1 bytes from FileDescriptorTable 48: XHMTAAKIDGQLHPGR.TNH
+1 Byte(s) requested from fileID: 49
+RWPTR GOING IN: 32
+Reading 1 bytes from FileDescriptorTable 49: BXUKEHODJMPICDZU.XZG
+1 Byte(s) requested from fileID: 48
+RWPTR GOING IN: 32
+Reading 1 bytes from FileDescriptorTable 48: XHMTAAKIDGQLHPGR.TNH
+1 Byte(s) requested from fileID: 49
+RWPTR GOING IN: 33
+Reading 1 bytes from FileDescriptorTable 49: BXUKEHODJMPICDZU.XZG
+1 Byte(s) requested from fileID: 48
+RWPTR GOING IN: 33
+Reading 1 bytes from FileDescriptorTable 48: XHMTAAKIDGQLHPGR.TNH
+1 Byte(s) requested from fileID: 49
+RWPTR GOING IN: 34
+Reading 1 bytes from FileDescriptorTable 49: BXUKEHODJMPICDZU.XZG
+1 Byte(s) requested from fileID: 48
+RWPTR GOING IN: 34
+Reading 1 bytes from FileDescriptorTable 48: XHMTAAKIDGQLHPGR.TNH
+1 Byte(s) requested from fileID: 49
+RWPTR GOING IN: 35
+Reading 1 bytes from FileDescriptorTable 49: BXUKEHODJMPICDZU.XZG
+1 Byte(s) requested from fileID: 48
+RWPTR GOING IN: 35
+Reading 1 bytes from FileDescriptorTable 48: XHMTAAKIDGQLHPGR.TNH
+1 Byte(s) requested from fileID: 49
+RWPTR GOING IN: 36
+Reading 1 bytes from FileDescriptorTable 49: BXUKEHODJMPICDZU.XZG
+1 Byte(s) requested from fileID: 48
+RWPTR GOING IN: 36
+Reading 1 bytes from FileDescriptorTable 48: XHMTAAKIDGQLHPGR.TNH
+1 Byte(s) requested from fileID: 49
+RWPTR GOING IN: 37
+Reading 1 bytes from FileDescriptorTable 49: BXUKEHODJMPICDZU.XZG
+1 Byte(s) requested from fileID: 48
+RWPTR GOING IN: 37
+Reading 1 bytes from FileDescriptorTable 48: XHMTAAKIDGQLHPGR.TNH
+1 Byte(s) requested from fileID: 49
+RWPTR GOING IN: 38
+Reading 1 bytes from FileDescriptorTable 49: BXUKEHODJMPICDZU.XZG
+1 Byte(s) requested from fileID: 48
+RWPTR GOING IN: 38
+Reading 1 bytes from FileDescriptorTable 48: XHMTAAKIDGQLHPGR.TNH
+1 Byte(s) requested from fileID: 49
+RWPTR GOING IN: 39
+Reading 1 bytes from FileDescriptorTable 49: BXUKEHODJMPICDZU.XZG
+1 Byte(s) requested from fileID: 48
+RWPTR GOING IN: 39
+Reading 1 bytes from FileDescriptorTable 48: XHMTAAKIDGQLHPGR.TNH
+1 Byte(s) requested from fileID: 49
+RWPTR GOING IN: 40
+Reading 1 bytes from FileDescriptorTable 49: BXUKEHODJMPICDZU.XZG
+1 Byte(s) requested from fileID: 48
+RWPTR GOING IN: 40
+Reading 1 bytes from FileDescriptorTable 48: XHMTAAKIDGQLHPGR.TNH
+1 Byte(s) requested from fileID: 49
+RWPTR GOING IN: 41
+Reading 1 bytes from FileDescriptorTable 49: BXUKEHODJMPICDZU.XZG
+1 Byte(s) requested from fileID: 48
+RWPTR GOING IN: 41
+Reading 1 bytes from FileDescriptorTable 48: XHMTAAKIDGQLHPGR.TNH
+1 Byte(s) requested from fileID: 49
+RWPTR GOING IN: 42
+Reading 1 bytes from FileDescriptorTable 49: BXUKEHODJMPICDZU.XZG
+1 Byte(s) requested from fileID: 48
+RWPTR GOING IN: 42
+Reading 1 bytes from FileDescriptorTable 48: XHMTAAKIDGQLHPGR.TNH
+1 Byte(s) requested from fileID: 49
+RWPTR GOING IN: 43
+Reading 1 bytes from FileDescriptorTable 49: BXUKEHODJMPICDZU.XZG
+1 Byte(s) requested from fileID: 48
+RWPTR GOING IN: 43
+Reading 1 bytes from FileDescriptorTable 48: XHMTAAKIDGQLHPGR.TNH
+1 Byte(s) requested from fileID: 49
+RWPTR GOING IN: 44
+Reading 1 bytes from FileDescriptorTable 49: BXUKEHODJMPICDZU.XZG
+1 Byte(s) requested from fileID: 48
+RWPTR GOING IN: 44
+Reading 1 bytes from FileDescriptorTable 48: XHMTAAKIDGQLHPGR.TNH
+Closing file at FileDescriptorTable 49: BXUKEHODJMPICDZU.XZG
+Closing file at FileDescriptorTable 48: XHMTAAKIDGQLHPGR.TNH
+Closing file at FileDescriptorTable 47: YYTNJYTISQJAQROJ.TQV
+Closing file at FileDescriptorTable 46: DTDTHKKNDFCMDDGS.MEL
+Closing file at FileDescriptorTable 45: WYEGAUXPFSHAVBDQ.IPA
+Closing file at FileDescriptorTable 44: XUHBGMEOESUSPUYV.VSU
+Closing file at FileDescriptorTable 43: MXMTZJWEZGVBDRKH.XWL
+Closing file at FileDescriptorTable 42: OCGKUVFSQCMMOLAJ.KJG
+Closing file at FileDescriptorTable 41: QKMLNSEXZETKSXSE.SNJ
+Closing file at FileDescriptorTable 40: MFNZRBMTNXCTPMFD.BXH
+Closing file at FileDescriptorTable 39: YYLTLDRDKLRTXYJY.SKL
+Closing file at FileDescriptorTable 38: LZKOSZCAEGZMEYXA.JDR
+Closing file at FileDescriptorTable 37: MNEDIDERCWEPHDBX.WCC
+Closing file at FileDescriptorTable 36: WHIXTOVSOEVFRKJW.TNA
+Closing file at FileDescriptorTable 35: KRYQIIULFSNJQWRN.PGJ
+Closing file at FileDescriptorTable 34: IUNFCGQNFJCHVTGM.DOI
+Closing file at FileDescriptorTable 33: OVAEFQAWFSEOAZEH.DMX
+Closing file at FileDescriptorTable 32: QRITBEOJSSXAIUAM.ZSP
+Closing file at FileDescriptorTable 31: YXHEOHFUQIGOZAWU.DCI
+Closing file at FileDescriptorTable 30: MUCLULFWZHQOHQVN.EET
+Closing file at FileDescriptorTable 29: AVBILCKHYNMHZGJM.DWU
+Closing file at FileDescriptorTable 28: ZWBQKKGIXMMSMJWW.UYH
+Closing file at FileDescriptorTable 27: EZUQGWYRIBOCBMFT.YRB
+Closing file at FileDescriptorTable 26: IRNVJBGFXDGGHFBZ.NZX
+Closing file at FileDescriptorTable 25: GJZWOCITVJNYRENO.POV
+Closing file at FileDescriptorTable 24: VNYDUHKXGXWDFHCC.VEK
+Closing file at FileDescriptorTable 23: PBTEZNIMBZCYWSWZ.OFJ
+Closing file at FileDescriptorTable 22: LLIJPOQTQMACDDYH.DNR
+Closing file at FileDescriptorTable 21: ROQWNNOLOCRAPEKY.VAQ
+Closing file at FileDescriptorTable 20: PSCRVHUVOZIHRYAP.NPF
+Closing file at FileDescriptorTable 19: ZDJSFYYQYUSOJLTC.IAW
+Closing file at FileDescriptorTable 18: DRWNAPLAEZRLAXUU.CSS
+Closing file at FileDescriptorTable 17: USMNIXYBZIEYNXUA.XJN
+Closing file at FileDescriptorTable 16: APORAOOWKTQDNIRC.QRC
+Closing file at FileDescriptorTable 15: USKAQXXKZWVNWKBO.MSE
+Closing file at FileDescriptorTable 14: ICXYHNIZPZQSVICX.BCU
+Closing file at FileDescriptorTable 13: LBQHQPTSFIMJQOHR.WWZ
+Closing file at FileDescriptorTable 12: VLANDXXIUYMQMPHV.GYO
+Closing file at FileDescriptorTable 11: ADYMMRAVIWRJTFKI.KJI
+Closing file at FileDescriptorTable 10: UEIGUUWDPCBGCEEO.TVQ
+Closing file at FileDescriptorTable 9: OFNIPINBTXKBSQLA.NGW
+Closing file at FileDescriptorTable 8: QXAUFCAMSTJJKPYS.GIH
+Closing file at FileDescriptorTable 7: JBETEYMSZZAVRXYL.FCM
+Closing file at FileDescriptorTable 6: RVHCGRTGJZOQISXE.YVS
+Closing file at FileDescriptorTable 5: QWRQUIQSWXUKQRRS.XJM
+Closing file at FileDescriptorTable 4: DUNUNYMKCMHWFENV.YXN
+Closing file at FileDescriptorTable 3: QVKMFAEZVDIHHEWD.RUR
+Closing file at FileDescriptorTable 2: BWDLUIPHGNHVFEIT.KKX
+Closing file at FileDescriptorTable 1: LFBVOKZLNRFGUEJF.YUW
+Closing file at FileDescriptorTable 0: ICJRXQVFKHQJSXKN.MWN
+Loading disk
+Opening BXUKEHODJMPICDZU.XZG
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: BXUKEHODJMPICDZU.XZG, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: BXUKEHODJMPICDZU.XZG
+Closing file at FileDescriptorTable 0: BXUKEHODJMPICDZU.XZG
+Opening XHMTAAKIDGQLHPGR.TNH
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: XHMTAAKIDGQLHPGR.TNH, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: XHMTAAKIDGQLHPGR.TNH
+0
+Closing file at FileDescriptorTable 0: XHMTAAKIDGQLHPGR.TNH
+Opening YYTNJYTISQJAQROJ.TQV
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: YYTNJYTISQJAQROJ.TQV, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: YYTNJYTISQJAQROJ.TQV
+Closing file at FileDescriptorTable 0: YYTNJYTISQJAQROJ.TQV
+Opening DTDTHKKNDFCMDDGS.MEL
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: DTDTHKKNDFCMDDGS.MEL, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: DTDTHKKNDFCMDDGS.MEL
+Closing file at FileDescriptorTable 0: DTDTHKKNDFCMDDGS.MEL
+Opening WYEGAUXPFSHAVBDQ.IPA
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: WYEGAUXPFSHAVBDQ.IPA, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: WYEGAUXPFSHAVBDQ.IPA
+Closing file at FileDescriptorTable 0: WYEGAUXPFSHAVBDQ.IPA
+Opening XUHBGMEOESUSPUYV.VSU
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: XUHBGMEOESUSPUYV.VSU, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: XUHBGMEOESUSPUYV.VSU
+Closing file at FileDescriptorTable 0: XUHBGMEOESUSPUYV.VSU
+Opening MXMTZJWEZGVBDRKH.XWL
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: MXMTZJWEZGVBDRKH.XWL, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: MXMTZJWEZGVBDRKH.XWL
+Closing file at FileDescriptorTable 0: MXMTZJWEZGVBDRKH.XWL
+Opening OCGKUVFSQCMMOLAJ.KJG
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: OCGKUVFSQCMMOLAJ.KJG, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: OCGKUVFSQCMMOLAJ.KJG
+Closing file at FileDescriptorTable 0: OCGKUVFSQCMMOLAJ.KJG
+Opening QKMLNSEXZETKSXSE.SNJ
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: QKMLNSEXZETKSXSE.SNJ, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: QKMLNSEXZETKSXSE.SNJ
+Closing file at FileDescriptorTable 0: QKMLNSEXZETKSXSE.SNJ
+Opening MFNZRBMTNXCTPMFD.BXH
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: MFNZRBMTNXCTPMFD.BXH, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: MFNZRBMTNXCTPMFD.BXH
+Closing file at FileDescriptorTable 0: MFNZRBMTNXCTPMFD.BXH
+Opening YYLTLDRDKLRTXYJY.SKL
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: YYLTLDRDKLRTXYJY.SKL, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: YYLTLDRDKLRTXYJY.SKL
+Closing file at FileDescriptorTable 0: YYLTLDRDKLRTXYJY.SKL
+Opening LZKOSZCAEGZMEYXA.JDR
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: LZKOSZCAEGZMEYXA.JDR, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: LZKOSZCAEGZMEYXA.JDR
+Closing file at FileDescriptorTable 0: LZKOSZCAEGZMEYXA.JDR
+Opening MNEDIDERCWEPHDBX.WCC
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: MNEDIDERCWEPHDBX.WCC, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: MNEDIDERCWEPHDBX.WCC
+Closing file at FileDescriptorTable 0: MNEDIDERCWEPHDBX.WCC
+Opening WHIXTOVSOEVFRKJW.TNA
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: WHIXTOVSOEVFRKJW.TNA, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: WHIXTOVSOEVFRKJW.TNA
+Closing file at FileDescriptorTable 0: WHIXTOVSOEVFRKJW.TNA
+Opening KRYQIIULFSNJQWRN.PGJ
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: KRYQIIULFSNJQWRN.PGJ, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: KRYQIIULFSNJQWRN.PGJ
+Closing file at FileDescriptorTable 0: KRYQIIULFSNJQWRN.PGJ
+Opening IUNFCGQNFJCHVTGM.DOI
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: IUNFCGQNFJCHVTGM.DOI, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: IUNFCGQNFJCHVTGM.DOI
+Closing file at FileDescriptorTable 0: IUNFCGQNFJCHVTGM.DOI
+Opening OVAEFQAWFSEOAZEH.DMX
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: OVAEFQAWFSEOAZEH.DMX, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: OVAEFQAWFSEOAZEH.DMX
+Closing file at FileDescriptorTable 0: OVAEFQAWFSEOAZEH.DMX
+Opening QRITBEOJSSXAIUAM.ZSP
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: QRITBEOJSSXAIUAM.ZSP, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: QRITBEOJSSXAIUAM.ZSP
+Closing file at FileDescriptorTable 0: QRITBEOJSSXAIUAM.ZSP
+Opening YXHEOHFUQIGOZAWU.DCI
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: YXHEOHFUQIGOZAWU.DCI, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: YXHEOHFUQIGOZAWU.DCI
+Closing file at FileDescriptorTable 0: YXHEOHFUQIGOZAWU.DCI
+Opening MUCLULFWZHQOHQVN.EET
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: MUCLULFWZHQOHQVN.EET, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: MUCLULFWZHQOHQVN.EET
+Closing file at FileDescriptorTable 0: MUCLULFWZHQOHQVN.EET
+Opening AVBILCKHYNMHZGJM.DWU
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: AVBILCKHYNMHZGJM.DWU, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: AVBILCKHYNMHZGJM.DWU
+Closing file at FileDescriptorTable 0: AVBILCKHYNMHZGJM.DWU
+Opening ZWBQKKGIXMMSMJWW.UYH
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: ZWBQKKGIXMMSMJWW.UYH, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: ZWBQKKGIXMMSMJWW.UYH
+Closing file at FileDescriptorTable 0: ZWBQKKGIXMMSMJWW.UYH
+Opening EZUQGWYRIBOCBMFT.YRB
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: EZUQGWYRIBOCBMFT.YRB, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: EZUQGWYRIBOCBMFT.YRB
+Closing file at FileDescriptorTable 0: EZUQGWYRIBOCBMFT.YRB
+Opening IRNVJBGFXDGGHFBZ.NZX
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: IRNVJBGFXDGGHFBZ.NZX, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: IRNVJBGFXDGGHFBZ.NZX
+Closing file at FileDescriptorTable 0: IRNVJBGFXDGGHFBZ.NZX
+Opening GJZWOCITVJNYRENO.POV
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: GJZWOCITVJNYRENO.POV, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: GJZWOCITVJNYRENO.POV
+Closing file at FileDescriptorTable 0: GJZWOCITVJNYRENO.POV
+Opening VNYDUHKXGXWDFHCC.VEK
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: VNYDUHKXGXWDFHCC.VEK, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: VNYDUHKXGXWDFHCC.VEK
+Closing file at FileDescriptorTable 0: VNYDUHKXGXWDFHCC.VEK
+Opening PBTEZNIMBZCYWSWZ.OFJ
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: PBTEZNIMBZCYWSWZ.OFJ, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: PBTEZNIMBZCYWSWZ.OFJ
+Closing file at FileDescriptorTable 0: PBTEZNIMBZCYWSWZ.OFJ
+Opening LLIJPOQTQMACDDYH.DNR
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: LLIJPOQTQMACDDYH.DNR, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: LLIJPOQTQMACDDYH.DNR
+Closing file at FileDescriptorTable 0: LLIJPOQTQMACDDYH.DNR
+Opening ROQWNNOLOCRAPEKY.VAQ
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: ROQWNNOLOCRAPEKY.VAQ, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: ROQWNNOLOCRAPEKY.VAQ
+Closing file at FileDescriptorTable 0: ROQWNNOLOCRAPEKY.VAQ
+Opening PSCRVHUVOZIHRYAP.NPF
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: PSCRVHUVOZIHRYAP.NPF, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: PSCRVHUVOZIHRYAP.NPF
+Closing file at FileDescriptorTable 0: PSCRVHUVOZIHRYAP.NPF
+Opening ZDJSFYYQYUSOJLTC.IAW
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: ZDJSFYYQYUSOJLTC.IAW, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: ZDJSFYYQYUSOJLTC.IAW
+Closing file at FileDescriptorTable 0: ZDJSFYYQYUSOJLTC.IAW
+Opening DRWNAPLAEZRLAXUU.CSS
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: DRWNAPLAEZRLAXUU.CSS, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: DRWNAPLAEZRLAXUU.CSS
+Closing file at FileDescriptorTable 0: DRWNAPLAEZRLAXUU.CSS
+Opening USMNIXYBZIEYNXUA.XJN
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: USMNIXYBZIEYNXUA.XJN, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: USMNIXYBZIEYNXUA.XJN
+Closing file at FileDescriptorTable 0: USMNIXYBZIEYNXUA.XJN
+Opening APORAOOWKTQDNIRC.QRC
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: APORAOOWKTQDNIRC.QRC, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: APORAOOWKTQDNIRC.QRC
+Closing file at FileDescriptorTable 0: APORAOOWKTQDNIRC.QRC
+Opening USKAQXXKZWVNWKBO.MSE
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: USKAQXXKZWVNWKBO.MSE, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: USKAQXXKZWVNWKBO.MSE
+Closing file at FileDescriptorTable 0: USKAQXXKZWVNWKBO.MSE
+Opening ICXYHNIZPZQSVICX.BCU
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: ICXYHNIZPZQSVICX.BCU, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: ICXYHNIZPZQSVICX.BCU
+Closing file at FileDescriptorTable 0: ICXYHNIZPZQSVICX.BCU
+Opening LBQHQPTSFIMJQOHR.WWZ
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: LBQHQPTSFIMJQOHR.WWZ, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: LBQHQPTSFIMJQOHR.WWZ
+Closing file at FileDescriptorTable 0: LBQHQPTSFIMJQOHR.WWZ
+Opening VLANDXXIUYMQMPHV.GYO
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: VLANDXXIUYMQMPHV.GYO, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: VLANDXXIUYMQMPHV.GYO
+Closing file at FileDescriptorTable 0: VLANDXXIUYMQMPHV.GYO
+Opening ADYMMRAVIWRJTFKI.KJI
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: ADYMMRAVIWRJTFKI.KJI, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: ADYMMRAVIWRJTFKI.KJI
+Closing file at FileDescriptorTable 0: ADYMMRAVIWRJTFKI.KJI
+Opening UEIGUUWDPCBGCEEO.TVQ
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: UEIGUUWDPCBGCEEO.TVQ, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: UEIGUUWDPCBGCEEO.TVQ
+Closing file at FileDescriptorTable 0: UEIGUUWDPCBGCEEO.TVQ
+Opening OFNIPINBTXKBSQLA.NGW
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: OFNIPINBTXKBSQLA.NGW, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: OFNIPINBTXKBSQLA.NGW
+Closing file at FileDescriptorTable 0: OFNIPINBTXKBSQLA.NGW
+Opening QXAUFCAMSTJJKPYS.GIH
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: QXAUFCAMSTJJKPYS.GIH, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: QXAUFCAMSTJJKPYS.GIH
+Closing file at FileDescriptorTable 0: QXAUFCAMSTJJKPYS.GIH
+Opening JBETEYMSZZAVRXYL.FCM
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: JBETEYMSZZAVRXYL.FCM, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: JBETEYMSZZAVRXYL.FCM
+Closing file at FileDescriptorTable 0: JBETEYMSZZAVRXYL.FCM
+Opening RVHCGRTGJZOQISXE.YVS
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: RVHCGRTGJZOQISXE.YVS, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: RVHCGRTGJZOQISXE.YVS
+Closing file at FileDescriptorTable 0: RVHCGRTGJZOQISXE.YVS
+Opening QWRQUIQSWXUKQRRS.XJM
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: QWRQUIQSWXUKQRRS.XJM, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: QWRQUIQSWXUKQRRS.XJM
+Closing file at FileDescriptorTable 0: QWRQUIQSWXUKQRRS.XJM
+Opening DUNUNYMKCMHWFENV.YXN
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: DUNUNYMKCMHWFENV.YXN, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: DUNUNYMKCMHWFENV.YXN
+Closing file at FileDescriptorTable 0: DUNUNYMKCMHWFENV.YXN
+Opening QVKMFAEZVDIHHEWD.RUR
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: QVKMFAEZVDIHHEWD.RUR, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: QVKMFAEZVDIHHEWD.RUR
+Closing file at FileDescriptorTable 0: QVKMFAEZVDIHHEWD.RUR
+Opening BWDLUIPHGNHVFEIT.KKX
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: BWDLUIPHGNHVFEIT.KKX, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: BWDLUIPHGNHVFEIT.KKX
+Closing file at FileDescriptorTable 0: BWDLUIPHGNHVFEIT.KKX
+Opening LFBVOKZLNRFGUEJF.YUW
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: LFBVOKZLNRFGUEJF.YUW, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: LFBVOKZLNRFGUEJF.YUW
+Closing file at FileDescriptorTable 0: LFBVOKZLNRFGUEJF.YUW
+Opening ICJRXQVFKHQJSXKN.MWN
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: ICJRXQVFKHQJSXKN.MWN, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: ICJRXQVFKHQJSXKN.MWN
+Closing file at FileDescriptorTable 0: ICJRXQVFKHQJSXKN.MWN
+Trying to fill up the disk with repeated writes to BXUKEHODJMPICDZU.XZG.
+(This may take a while).
+Opening BXUKEHODJMPICDZU.XZG
+Writing 1024 bytes to file at ID: 0
+Write failed after 0 iterations.
+If the emulated disk contains just over 0 bytes, this is OK
+Closing file at FileDescriptorTable 0: BXUKEHODJMPICDZU.XZG
+Directory listing
+ERROR misnamed file 0: XHMTAAKIDGQLHPGR.TNH BXUKEHODJMPICDZU.XZG
+ERROR misnamed file 1: BXUKEHODJMPICDZU.XZG XHMTAAKIDGQLHPGR.TNH
+Opening BXUKEHODJMPICDZU.XZG
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Reading 1024 bytes from FileDescriptorTable 0: BXUKEHODJMPICDZU.XZG
+Closing file at FileDescriptorTable 0: BXUKEHODJMPICDZU.XZG
+Opening XHMTAAKIDGQLHPGR.TNH
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: XHMTAAKIDGQLHPGR.TNH, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: XHMTAAKIDGQLHPGR.TNH
+Closing file at FileDescriptorTable 0: XHMTAAKIDGQLHPGR.TNH
+Opening YYTNJYTISQJAQROJ.TQV
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: YYTNJYTISQJAQROJ.TQV, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: YYTNJYTISQJAQROJ.TQV
+Closing file at FileDescriptorTable 0: YYTNJYTISQJAQROJ.TQV
+Opening DTDTHKKNDFCMDDGS.MEL
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: DTDTHKKNDFCMDDGS.MEL, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: DTDTHKKNDFCMDDGS.MEL
+Closing file at FileDescriptorTable 0: DTDTHKKNDFCMDDGS.MEL
+Opening WYEGAUXPFSHAVBDQ.IPA
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: WYEGAUXPFSHAVBDQ.IPA, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: WYEGAUXPFSHAVBDQ.IPA
+Closing file at FileDescriptorTable 0: WYEGAUXPFSHAVBDQ.IPA
+Opening XUHBGMEOESUSPUYV.VSU
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: XUHBGMEOESUSPUYV.VSU, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: XUHBGMEOESUSPUYV.VSU
+Closing file at FileDescriptorTable 0: XUHBGMEOESUSPUYV.VSU
+Opening MXMTZJWEZGVBDRKH.XWL
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: MXMTZJWEZGVBDRKH.XWL, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: MXMTZJWEZGVBDRKH.XWL
+Closing file at FileDescriptorTable 0: MXMTZJWEZGVBDRKH.XWL
+Opening OCGKUVFSQCMMOLAJ.KJG
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: OCGKUVFSQCMMOLAJ.KJG, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: OCGKUVFSQCMMOLAJ.KJG
+Closing file at FileDescriptorTable 0: OCGKUVFSQCMMOLAJ.KJG
+Opening QKMLNSEXZETKSXSE.SNJ
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: QKMLNSEXZETKSXSE.SNJ, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: QKMLNSEXZETKSXSE.SNJ
+Closing file at FileDescriptorTable 0: QKMLNSEXZETKSXSE.SNJ
+Opening MFNZRBMTNXCTPMFD.BXH
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: MFNZRBMTNXCTPMFD.BXH, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: MFNZRBMTNXCTPMFD.BXH
+Closing file at FileDescriptorTable 0: MFNZRBMTNXCTPMFD.BXH
+Opening YYLTLDRDKLRTXYJY.SKL
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: YYLTLDRDKLRTXYJY.SKL, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: YYLTLDRDKLRTXYJY.SKL
+Closing file at FileDescriptorTable 0: YYLTLDRDKLRTXYJY.SKL
+Opening LZKOSZCAEGZMEYXA.JDR
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: LZKOSZCAEGZMEYXA.JDR, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: LZKOSZCAEGZMEYXA.JDR
+Closing file at FileDescriptorTable 0: LZKOSZCAEGZMEYXA.JDR
+Opening MNEDIDERCWEPHDBX.WCC
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: MNEDIDERCWEPHDBX.WCC, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: MNEDIDERCWEPHDBX.WCC
+Closing file at FileDescriptorTable 0: MNEDIDERCWEPHDBX.WCC
+Opening WHIXTOVSOEVFRKJW.TNA
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: WHIXTOVSOEVFRKJW.TNA, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: WHIXTOVSOEVFRKJW.TNA
+Closing file at FileDescriptorTable 0: WHIXTOVSOEVFRKJW.TNA
+Opening KRYQIIULFSNJQWRN.PGJ
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: KRYQIIULFSNJQWRN.PGJ, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: KRYQIIULFSNJQWRN.PGJ
+Closing file at FileDescriptorTable 0: KRYQIIULFSNJQWRN.PGJ
+Opening IUNFCGQNFJCHVTGM.DOI
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: IUNFCGQNFJCHVTGM.DOI, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: IUNFCGQNFJCHVTGM.DOI
+Closing file at FileDescriptorTable 0: IUNFCGQNFJCHVTGM.DOI
+Opening OVAEFQAWFSEOAZEH.DMX
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: OVAEFQAWFSEOAZEH.DMX, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: OVAEFQAWFSEOAZEH.DMX
+Closing file at FileDescriptorTable 0: OVAEFQAWFSEOAZEH.DMX
+Opening QRITBEOJSSXAIUAM.ZSP
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: QRITBEOJSSXAIUAM.ZSP, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: QRITBEOJSSXAIUAM.ZSP
+Closing file at FileDescriptorTable 0: QRITBEOJSSXAIUAM.ZSP
+Opening YXHEOHFUQIGOZAWU.DCI
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: YXHEOHFUQIGOZAWU.DCI, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: YXHEOHFUQIGOZAWU.DCI
+Closing file at FileDescriptorTable 0: YXHEOHFUQIGOZAWU.DCI
+Opening MUCLULFWZHQOHQVN.EET
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: MUCLULFWZHQOHQVN.EET, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: MUCLULFWZHQOHQVN.EET
+Closing file at FileDescriptorTable 0: MUCLULFWZHQOHQVN.EET
+Opening AVBILCKHYNMHZGJM.DWU
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: AVBILCKHYNMHZGJM.DWU, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: AVBILCKHYNMHZGJM.DWU
+Closing file at FileDescriptorTable 0: AVBILCKHYNMHZGJM.DWU
+Opening ZWBQKKGIXMMSMJWW.UYH
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: ZWBQKKGIXMMSMJWW.UYH, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: ZWBQKKGIXMMSMJWW.UYH
+Closing file at FileDescriptorTable 0: ZWBQKKGIXMMSMJWW.UYH
+Opening EZUQGWYRIBOCBMFT.YRB
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: EZUQGWYRIBOCBMFT.YRB, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: EZUQGWYRIBOCBMFT.YRB
+Closing file at FileDescriptorTable 0: EZUQGWYRIBOCBMFT.YRB
+Opening IRNVJBGFXDGGHFBZ.NZX
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: IRNVJBGFXDGGHFBZ.NZX, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: IRNVJBGFXDGGHFBZ.NZX
+Closing file at FileDescriptorTable 0: IRNVJBGFXDGGHFBZ.NZX
+Opening GJZWOCITVJNYRENO.POV
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: GJZWOCITVJNYRENO.POV, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: GJZWOCITVJNYRENO.POV
+Closing file at FileDescriptorTable 0: GJZWOCITVJNYRENO.POV
+Opening VNYDUHKXGXWDFHCC.VEK
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: VNYDUHKXGXWDFHCC.VEK, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: VNYDUHKXGXWDFHCC.VEK
+Closing file at FileDescriptorTable 0: VNYDUHKXGXWDFHCC.VEK
+Opening PBTEZNIMBZCYWSWZ.OFJ
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: PBTEZNIMBZCYWSWZ.OFJ, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: PBTEZNIMBZCYWSWZ.OFJ
+Closing file at FileDescriptorTable 0: PBTEZNIMBZCYWSWZ.OFJ
+Opening LLIJPOQTQMACDDYH.DNR
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: LLIJPOQTQMACDDYH.DNR, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: LLIJPOQTQMACDDYH.DNR
+Closing file at FileDescriptorTable 0: LLIJPOQTQMACDDYH.DNR
+Opening ROQWNNOLOCRAPEKY.VAQ
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: ROQWNNOLOCRAPEKY.VAQ, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: ROQWNNOLOCRAPEKY.VAQ
+Closing file at FileDescriptorTable 0: ROQWNNOLOCRAPEKY.VAQ
+Opening PSCRVHUVOZIHRYAP.NPF
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: PSCRVHUVOZIHRYAP.NPF, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: PSCRVHUVOZIHRYAP.NPF
+Closing file at FileDescriptorTable 0: PSCRVHUVOZIHRYAP.NPF
+Opening ZDJSFYYQYUSOJLTC.IAW
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: ZDJSFYYQYUSOJLTC.IAW, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: ZDJSFYYQYUSOJLTC.IAW
+Closing file at FileDescriptorTable 0: ZDJSFYYQYUSOJLTC.IAW
+Opening DRWNAPLAEZRLAXUU.CSS
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: DRWNAPLAEZRLAXUU.CSS, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: DRWNAPLAEZRLAXUU.CSS
+Closing file at FileDescriptorTable 0: DRWNAPLAEZRLAXUU.CSS
+Opening USMNIXYBZIEYNXUA.XJN
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: USMNIXYBZIEYNXUA.XJN, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: USMNIXYBZIEYNXUA.XJN
+Closing file at FileDescriptorTable 0: USMNIXYBZIEYNXUA.XJN
+Opening APORAOOWKTQDNIRC.QRC
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: APORAOOWKTQDNIRC.QRC, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: APORAOOWKTQDNIRC.QRC
+Closing file at FileDescriptorTable 0: APORAOOWKTQDNIRC.QRC
+Opening USKAQXXKZWVNWKBO.MSE
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: USKAQXXKZWVNWKBO.MSE, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: USKAQXXKZWVNWKBO.MSE
+Closing file at FileDescriptorTable 0: USKAQXXKZWVNWKBO.MSE
+Opening ICXYHNIZPZQSVICX.BCU
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: ICXYHNIZPZQSVICX.BCU, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: ICXYHNIZPZQSVICX.BCU
+Closing file at FileDescriptorTable 0: ICXYHNIZPZQSVICX.BCU
+Opening LBQHQPTSFIMJQOHR.WWZ
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: LBQHQPTSFIMJQOHR.WWZ, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: LBQHQPTSFIMJQOHR.WWZ
+Closing file at FileDescriptorTable 0: LBQHQPTSFIMJQOHR.WWZ
+Opening VLANDXXIUYMQMPHV.GYO
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: VLANDXXIUYMQMPHV.GYO, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: VLANDXXIUYMQMPHV.GYO
+Closing file at FileDescriptorTable 0: VLANDXXIUYMQMPHV.GYO
+Opening ADYMMRAVIWRJTFKI.KJI
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: ADYMMRAVIWRJTFKI.KJI, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: ADYMMRAVIWRJTFKI.KJI
+Closing file at FileDescriptorTable 0: ADYMMRAVIWRJTFKI.KJI
+Opening UEIGUUWDPCBGCEEO.TVQ
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: UEIGUUWDPCBGCEEO.TVQ, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: UEIGUUWDPCBGCEEO.TVQ
+Closing file at FileDescriptorTable 0: UEIGUUWDPCBGCEEO.TVQ
+Opening OFNIPINBTXKBSQLA.NGW
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: OFNIPINBTXKBSQLA.NGW, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: OFNIPINBTXKBSQLA.NGW
+Closing file at FileDescriptorTable 0: OFNIPINBTXKBSQLA.NGW
+Opening QXAUFCAMSTJJKPYS.GIH
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: QXAUFCAMSTJJKPYS.GIH, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: QXAUFCAMSTJJKPYS.GIH
+Closing file at FileDescriptorTable 0: QXAUFCAMSTJJKPYS.GIH
+Opening JBETEYMSZZAVRXYL.FCM
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: JBETEYMSZZAVRXYL.FCM, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: JBETEYMSZZAVRXYL.FCM
+Closing file at FileDescriptorTable 0: JBETEYMSZZAVRXYL.FCM
+Opening RVHCGRTGJZOQISXE.YVS
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: RVHCGRTGJZOQISXE.YVS, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: RVHCGRTGJZOQISXE.YVS
+Closing file at FileDescriptorTable 0: RVHCGRTGJZOQISXE.YVS
+Opening QWRQUIQSWXUKQRRS.XJM
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: QWRQUIQSWXUKQRRS.XJM, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: QWRQUIQSWXUKQRRS.XJM
+Closing file at FileDescriptorTable 0: QWRQUIQSWXUKQRRS.XJM
+Opening DUNUNYMKCMHWFENV.YXN
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: DUNUNYMKCMHWFENV.YXN, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: DUNUNYMKCMHWFENV.YXN
+Closing file at FileDescriptorTable 0: DUNUNYMKCMHWFENV.YXN
+Opening QVKMFAEZVDIHHEWD.RUR
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: QVKMFAEZVDIHHEWD.RUR, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: QVKMFAEZVDIHHEWD.RUR
+Closing file at FileDescriptorTable 0: QVKMFAEZVDIHHEWD.RUR
+Opening BWDLUIPHGNHVFEIT.KKX
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: BWDLUIPHGNHVFEIT.KKX, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: BWDLUIPHGNHVFEIT.KKX
+Closing file at FileDescriptorTable 0: BWDLUIPHGNHVFEIT.KKX
+Opening LFBVOKZLNRFGUEJF.YUW
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: LFBVOKZLNRFGUEJF.YUW, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: LFBVOKZLNRFGUEJF.YUW
+Closing file at FileDescriptorTable 0: LFBVOKZLNRFGUEJF.YUW
+Opening ICJRXQVFKHQJSXKN.MWN
+1024 Byte(s) requested from fileID: 0
+RWPTR GOING IN: 0
+Requested 1024 bytes from file 0: ICJRXQVFKHQJSXKN.MWN, but the file is only 45 bytes long. Copying first 45 bytes
+Reading 45 bytes from FileDescriptorTable 0: ICJRXQVFKHQJSXKN.MWN
+Closing file at FileDescriptorTable 0: ICJRXQVFKHQJSXKN.MWN

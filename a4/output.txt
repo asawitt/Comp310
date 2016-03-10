@@ -1,0 +1,82 @@
+Start out in first-fit mode
+About to allocate 100 bytes
+CURRENT BLOCKS
+Head: size: 100, inUse: 1
+Block #: 0, size: 100, inUse: 1
+Block #: 1, size: 130940, inUse: 0
+Tail: size: 130940, inUse: 0
+About to allocate 300 bytes, then 100 bytes, then 200 bytes, then 100 bytes
+CURRENT BLOCKS
+Head: size: 100, inUse: 1
+Block #: 0, size: 100, inUse: 1
+Block #: 1, size: 300, inUse: 1
+Block #: 2, size: 100, inUse: 1
+Block #: 3, size: 200, inUse: 1
+Block #: 4, size: 100, inUse: 1
+Block #: 5, size: 130240, inUse: 0
+Tail: size: 130240, inUse: 0
+Now demonstrate allocating > 128 bytes
+About to allocate 150 kilobytes
+CURRENT BLOCKS
+Head: size: 100, inUse: 1
+Block #: 0, size: 100, inUse: 1
+Block #: 1, size: 300, inUse: 1
+Block #: 2, size: 100, inUse: 1
+Block #: 3, size: 200, inUse: 1
+Block #: 4, size: 100, inUse: 1
+Block #: 5, size: 130240, inUse: 0
+Block #: 6, size: 153600, inUse: 1
+Tail: size: 153600, inUse: 1
+Now let's demonstrate the best-fit mode
+Now we free the 300-byte block (block 1), and the 200 byte block (block 3).
+CURRENT BLOCKS
+Head: size: 100, inUse: 1
+Block #: 0, size: 100, inUse: 1
+Block #: 1, size: 300, inUse: 0
+Block #: 2, size: 100, inUse: 1
+Block #: 3, size: 200, inUse: 0
+Block #: 4, size: 100, inUse: 1
+Block #: 5, size: 130240, inUse: 0
+Block #: 6, size: 153600, inUse: 1
+Tail: size: 153600, inUse: 1
+Now we allocate 150 bytes, which will fit better into block 3 than 1. Note that we can't allocate 200 bytes because of mem_block size
+Also note that it doesn't fragment the block, because the leftover space is less than the 8 kb fragmentation limit
+CURRENT BLOCKS
+Head: size: 100, inUse: 1
+Block #: 0, size: 100, inUse: 1
+Block #: 1, size: 300, inUse: 0
+Block #: 2, size: 100, inUse: 1
+Block #: 3, size: 200, inUse: 1
+Block #: 4, size: 100, inUse: 1
+Block #: 5, size: 130240, inUse: 0
+Block #: 6, size: 153600, inUse: 1
+Tail: size: 153600, inUse: 1
+Now lets demonstrate that freeing adjacent blocks will combine them. We now free block 0, adjacent to free-block 1
+Note that the size is now 432 = 300 + 100 + 32(size of mem_block))
+CURRENT BLOCKS
+Head: size: 432, inUse: 0
+Block #: 0, size: 432, inUse: 0
+Block #: 1, size: 100, inUse: 1
+Block #: 2, size: 200, inUse: 1
+Block #: 3, size: 100, inUse: 1
+Block #: 4, size: 130240, inUse: 0
+Block #: 5, size: 153600, inUse: 1
+Tail: size: 153600, inUse: 1
+Finally let's demonstrate that freeing the last > 128kb block will combine it with the previous free block, and remove both from memory
+Freeing tail (Block 5)
+CURRENT BLOCKS
+Head: size: 432, inUse: 0
+Block #: 0, size: 432, inUse: 0
+Block #: 1, size: 100, inUse: 1
+Block #: 2, size: 200, inUse: 1
+Block #: 3, size: 100, inUse: 1
+Tail: size: 100, inUse: 1
+~~~~~MEMORY INFORMATION~~~~~
+Number of blocks: 4
+Number of blocks used: 3
+Number of blocks free: 1
+Allocated space: 400 bytes
+Free Space: 432 bytes
+Largest contiguous free space: 432 bytes
+Times allocated 7
+Times freed: 4
